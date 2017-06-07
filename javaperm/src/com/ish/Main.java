@@ -37,6 +37,8 @@ public class Main {
     }
 
     //using Set to avoid repetitions
+    //has issue of ignoring final character of input, however repairing it damages runtime and it is more efficient
+    //for the main to feed in a blank char at the end of the input
     public static Set<String> permutations(String input){
         Set<String> perms = new HashSet<String>();
 
