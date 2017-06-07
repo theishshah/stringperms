@@ -2,15 +2,18 @@
 
 ## Info
 Language Chosen: Java
+
 Libraries Imported: Scanner, Set, HashSet
+
 Complexity: N! (Number of Permutations given N characters)
 
 Source code: stringperms/javaperm/src/com/ish/Main.java
 
 ## Usage
-Either build/run Main.java from any IDE or execute the .jar
+Build/run Main.java from any IDE (I personally used IntelliJ)
+
 Commandline Java interface to print out all unique permutations of a string.
-Type 'quit' to exit the app. Currently unable to give permutations of 'quit' for this reason
+Type 'quit' to exit the app. Currently unable to give permutations of 'quit' for this reason.
 
 ## Problem Statement 
 In a language of your choice, write a command line utility that given a string as an input will print out all unique permutations of that string. Example inputs to consider are "aaa", "cake", and "banana".
@@ -22,27 +25,27 @@ Input:
 cake
 
 Output: 
-eack 
-acke 
-aekc 
-ecak 
-cake 
-ceka 
-eakc 
-ckae 
-akec 
-ecka 
-aeck 
-kcae 
-ceak 
-keac 
-kace 
-ekac 
-ckea 
-keca 
-caek 
-kaec 
-acek 
-akce 
-ekca 
+eack, 
+acke, 
+aekc, 
+ecak, 
+cake, 
+ceka, 
+eakc, 
+ckae, 
+akec, 
+ecka, 
+aeck, 
+kcae, 
+ceak, 
+keac, 
+kace, 
+ekac, 
+ckea, 
+keca, 
+caek, 
+kaec, 
+acek, 
+akce, 
+ekca, 
 kcea 
